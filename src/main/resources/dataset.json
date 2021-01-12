@@ -1,0 +1,1371 @@
+{
+  "1":[{
+    "giorno":"1/1/2020",
+    "numArresti":491
+  }],
+
+  "2":[{
+    "giorno":"2/1/2020",
+    "numArresti":640
+  }],
+
+  "3":[{
+    "giorno":"3/1/2020",
+    "numArresti":472
+  }],
+
+  "4":[{
+    "giorno":"4/1/2020",
+    "numArresti":375
+  }],
+
+  "5":[{
+    "giorno":"5/1/2020",
+    "numArresti":353
+  }],
+
+  "6":[{
+    "giorno":"6/1/2020",
+    "numArresti":463
+  }],
+
+  "7":[{
+    "giorno":"7/1/2020",
+    "numArresti":564
+  }],
+
+  "8":[{
+    "giorno":"8/1/2020",
+    "numArresti":605
+  }],
+
+  "9":[{
+    "giorno":"9/1/2020",
+    "numArresti":606
+  }],
+
+  "10":[{
+    "giorno":"10/1/2020",
+    "numArresti":569
+  }],
+
+  "11":[{
+    "giorno":"11/1/2020",
+    "numArresti":437
+  }],
+
+  "12":[{
+    "giorno":"12/1/2020",
+    "numArresti":353
+  }],
+
+  "13":[{
+    "giorno":"13/1/2020",
+    "numArresti":517
+  }],
+
+  "14":[{
+    "giorno":"14/1/2020",
+    "numArresti":664
+  }],
+
+  "15":[{
+    "giorno":"15/1/2020",
+    "numArresti":694
+  }],
+
+  "16":[{
+    "giorno":"16/1/2020",
+    "numArresti":612
+  }],
+
+  "17":[{
+    "giorno":"17/1/2020",
+    "numArresti":523
+  }],
+
+  "18":[{
+    "giorno":"18/1/2020",
+    "numArresti":340
+  }],
+
+  "19":[{
+    "giorno":"19/1/2020",
+    "numArresti":343
+  }],
+
+  "20":[{
+    "giorno":"20/1/2020",
+    "numArresti":455
+  }],
+
+  "21":[{
+    "giorno":"21/1/2020",
+    "numArresti":609
+  }],
+
+  "22":[{
+    "giorno":"22/1/2020",
+    "numArresti":672
+  }],
+
+  "23":[{
+    "giorno":"23/1/2020",
+    "numArresti":634
+  }],
+
+  "24":[{
+    "giorno":"24/1/2020",
+    "numArresti":525
+  }],
+
+  "25":[{
+    "giorno":"25/1/2020",
+    "numArresti":389
+  }],
+
+  "26":[{
+    "giorno":"26/1/2020",
+    "numArresti":374
+  }],
+
+  "27":[{
+    "giorno":"27/1/2020",
+    "numArresti":450
+  }],
+
+  "28":[{
+    "giorno":"28/1/2020",
+    "numArresti":604
+  }],
+
+  "29":[{
+    "giorno":"29/1/2020",
+    "numArresti":661
+  }],
+
+  "30":[{
+    "giorno":"30/1/2020",
+    "numArresti":669
+  }],
+
+  "31":[{
+    "giorno":"31/1/2020",
+    "numArresti":508
+  }],
+
+  "32":[{
+    "giorno":"1/2/2020",
+    "numArresti":459
+  }],
+
+  "33":[{
+    "giorno":"2/2/2020",
+    "numArresti":349
+  }],
+
+  "34":[{
+    "giorno":"3/2/2020",
+    "numArresti":478
+  }],
+
+  "35":[{
+    "giorno":"4/2/2020",
+    "numArresti":656
+  }],
+
+  "36":[{
+    "giorno":"5/2/2020",
+    "numArresti":756
+  }],
+
+  "37":[{
+    "giorno":"6/2/2020",
+    "numArresti":642
+  }],
+
+  "38":[{
+    "giorno":"7/2/2020",
+    "numArresti":540
+  }],
+
+  "39":[{
+    "giorno":"8/2/2020",
+    "numArresti":433
+  }],
+
+  "40":[{
+    "giorno":"9/2/2020",
+    "numArresti":413
+  }],
+
+  "41":[{
+    "giorno":"10/2/2020",
+    "numArresti":440
+  }],
+
+  "42":[{
+    "giorno":"11/2/2020",
+    "numArresti":585
+  }],
+
+  "43":[{
+    "giorno":"12/2/2020",
+    "numArresti":699
+  }],
+
+  "44":[{
+    "giorno":"13/2/2020",
+    "numArresti":603
+  }],
+
+  "45":[{
+    "giorno":"14/2/2020",
+    "numArresti":516
+  }],
+
+  "46":[{
+    "giorno":"15/2/2020",
+    "numArresti":432
+  }],
+
+  "47":[{
+    "giorno":"16/2/2020",
+    "numArresti":369
+  }],
+
+  "48":[{
+    "giorno":"17/2/2020",
+    "numArresti":534
+  }],
+
+  "49":[{
+    "giorno":"18/2/2020",
+    "numArresti":687
+  }],
+
+  "50":[{
+    "giorno":"19/2/2020",
+    "numArresti":618
+  }],
+
+  "51":[{
+    "giorno":"20/2/2020",
+    "numArresti":604
+  }],
+
+  "52":[{
+    "giorno":"21/2/2020",
+    "numArresti":543
+  }],
+
+  "53":[{
+    "giorno":"22/2/2020",
+    "numArresti":421
+  }],
+
+  "54":[{
+    "giorno":"23/2/2020",
+    "numArresti":411
+  }],
+
+  "55":[{
+    "giorno":"24/2/2020",
+    "numArresti":503
+  }],
+
+  "56":[{
+    "giorno":"25/2/2020",
+    "numArresti":546
+  }],
+
+  "57":[{
+    "giorno":"26/2/2020",
+    "numArresti":730
+  }],
+
+  "58":[{
+    "giorno":"27/2/2020",
+    "numArresti":560
+  }],
+
+  "59":[{
+    "giorno":"28/2/2020",
+    "numArresti":530
+  }],
+
+  "60":[{
+    "giorno":"29/2/2020",
+    "numArresti":415
+  }],
+
+  "61":[{
+    "giorno":"1/3/2020",
+    "numArresti":407
+  }],
+
+  "62":[{
+    "giorno":"2/3/2020",
+    "numArresti":531
+  }],
+
+  "63":[{
+    "giorno":"3/3/2020",
+    "numArresti":619
+  }],
+
+  "64":[{
+    "giorno":"4/3/2020",
+    "numArresti":772
+  }],
+
+  "65":[{
+    "giorno":"5/3/2020",
+    "numArresti":704
+  }],
+
+  "66":[{
+    "giorno":"6/3/2020",
+    "numArresti":550
+  }],
+
+  "67":[{
+    "giorno":"7/3/2020",
+    "numArresti":498
+  }],
+
+  "68":[{
+    "giorno":"8/3/2020",
+    "numArresti":400
+  }],
+
+  "69":[{
+    "giorno":"9/3/2020",
+    "numArresti":424
+  }],
+
+  "70":[{
+    "giorno":"10/3/2020",
+    "numArresti":746
+  }],
+
+  "71":[{
+    "giorno":"11/3/2020",
+    "numArresti":719
+  }],
+
+  "72":[{
+    "giorno":"12/3/2020",
+    "numArresti":671
+  }],
+
+  "73":[{
+    "giorno":"13/3/2020",
+    "numArresti":602
+  }],
+
+  "74":[{
+    "giorno":"14/3/2020",
+    "numArresti":491
+  }],
+
+  "75":[{
+    "giorno":"15/3/2020",
+    "numArresti":392
+  }],
+
+  "76":[{
+    "giorno":"16/3/2020",
+    "numArresti":328
+  }],
+
+  "77":[{
+    "giorno":"17/3/2020",
+    "numArresti":367
+  }],
+
+  "78":[{
+    "giorno":"18/3/2020",
+    "numArresti":482
+  }],
+
+  "79":[{
+    "giorno":"19/3/2020",
+    "numArresti":414
+  }],
+
+  "80":[{
+    "giorno":"20/3/2020",
+    "numArresti":364
+  }],
+
+  "81":[{
+    "giorno":"21/3/2020",
+    "numArresti":327
+  }],
+
+  "82":[{
+    "giorno":"22/3/2020",
+    "numArresti":225
+  }],
+
+  "83":[{
+    "giorno":"23/3/2020",
+    "numArresti":185
+  }],
+
+  "84":[{
+    "giorno":"24/3/2020",
+    "numArresti":288
+  }],
+
+  "85":[{
+    "giorno":"25/3/2020",
+    "numArresti":328
+  }],
+
+  "86":[{
+    "giorno":"26/3/2020",
+    "numArresti":272
+  }],
+
+  "87":[{
+    "giorno":"27/3/2020",
+    "numArresti":290
+  }],
+
+  "88":[{
+    "giorno":"28/3/2020",
+    "numArresti":198
+  }],
+
+  "89":[{
+    "giorno":"29/3/2020",
+    "numArresti":152
+  }],
+
+  "90":[{
+    "giorno":"30/3/2020",
+    "numArresti":204
+  }],
+
+  "91":[{
+    "giorno":"31/3/2020",
+    "numArresti":231
+  }],
+
+  "92":[{
+    "giorno":"1/4/2020",
+    "numArresti":265
+  }],
+
+  "93":[{
+    "giorno":"2/4/2020",
+    "numArresti":245
+  }],
+
+  "94":[{
+    "giorno":"3/4/2020",
+    "numArresti":202
+  }],
+
+  "95":[{
+    "giorno":"4/4/2020",
+    "numArresti":175
+  }],
+
+  "96":[{
+    "giorno":"5/4/2020",
+    "numArresti":170
+  }],
+
+  "97":[{
+    "giorno":"6/4/2020",
+    "numArresti":168
+  }],
+
+  "98":[{
+    "giorno":"7/4/2020",
+    "numArresti":262
+  }],
+
+  "99":[{
+    "giorno":"8/4/2020",
+    "numArresti":296
+  }],
+
+  "100":[{
+    "giorno":"9/4/2020",
+    "numArresti":285
+  }],
+
+  "101":[{
+    "giorno":"10/4/2020",
+    "numArresti":218
+  }],
+
+  "102":[{
+    "giorno":"11/4/2020",
+    "numArresti":200
+  }],
+
+  "103":[{
+    "giorno":"12/4/2020",
+    "numArresti":196
+  }],
+
+  "104":[{
+    "giorno":"13/4/2020",
+    "numArresti":187
+  }],
+
+  "105":[{
+    "giorno":"14/4/2020",
+    "numArresti":255
+  }],
+
+  "106":[{
+    "giorno":"15/4/2020",
+    "numArresti":320
+  }],
+
+  "107":[{
+    "giorno":"16/4/2020",
+    "numArresti":301
+  }],
+
+  "108":[{
+    "giorno":"17/4/2020",
+    "numArresti":284
+  }],
+
+  "109":[{
+    "giorno":"18/4/2020",
+    "numArresti":223
+  }],
+
+  "110":[{
+    "giorno":"19/4/2020",
+    "numArresti":234
+  }],
+
+  "111":[{
+    "giorno":"20/4/2020",
+    "numArresti":277
+  }],
+
+  "112":[{
+    "giorno":"21/4/2020",
+    "numArresti":302
+  }],
+
+  "113":[{
+    "giorno":"22/4/2020",
+    "numArresti":388
+  }],
+
+  "114":[{
+    "giorno":"23/4/2020",
+    "numArresti":387
+  }],
+
+  "115":[{
+    "giorno":"24/4/2020",
+    "numArresti":334
+  }],
+
+  "116":[{
+    "giorno":"25/4/2020",
+    "numArresti":328
+  }],
+
+  "117":[{
+    "giorno":"26/4/2020",
+    "numArresti":237
+  }],
+
+  "118":[{
+    "giorno":"27/4/2020",
+    "numArresti":280
+  }],
+
+  "119":[{
+    "giorno":"28/4/2020",
+    "numArresti":438
+  }],
+
+  "120":[{
+    "giorno":"29/4/2020",
+    "numArresti":419
+  }],
+
+  "121":[{
+    "giorno":"30/4/2020",
+    "numArresti":419
+  }],
+
+  "122":[{
+    "giorno":"1/5/2020",
+    "numArresti":383
+  }],
+
+  "123":[{
+    "giorno":"2/5/2020",
+    "numArresti":414
+  }],
+
+  "124":[{
+    "giorno":"3/5/2020",
+    "numArresti":322
+  }],
+
+  "125":[{
+    "giorno":"4/5/2020",
+    "numArresti":359
+  }],
+
+  "126":[{
+    "giorno":"5/5/2020",
+    "numArresti":479
+  }],
+
+  "127":[{
+    "giorno":"6/5/2020",
+    "numArresti":438
+  }],
+
+  "128":[{
+    "giorno":"7/5/2020",
+    "numArresti":522
+  }],
+
+  "129":[{
+    "giorno":"8/5/2020",
+    "numArresti":381
+  }],
+
+  "130":[{
+    "giorno":"9/5/2020",
+    "numArresti":271
+  }],
+
+  "131":[{
+    "giorno":"10/5/2020",
+    "numArresti":265
+  }],
+
+  "132":[{
+    "giorno":"11/5/2020",
+    "numArresti":366
+  }],
+
+  "133":[{
+    "giorno":"12/5/2020",
+    "numArresti":560
+  }],
+
+  "134":[{
+    "giorno":"13/5/2020",
+    "numArresti":553
+  }],
+
+  "135":[{
+    "giorno":"14/5/2020",
+    "numArresti":599
+  }],
+
+  "136":[{
+    "giorno":"15/5/2020",
+    "numArresti":469
+  }],
+
+  "137":[{
+    "giorno":"16/5/2020",
+    "numArresti":344
+  }],
+
+  "138":[{
+    "giorno":"17/5/2020",
+    "numArresti":353
+  }],
+
+  "139":[{
+    "giorno":"18/5/2020",
+    "numArresti":361
+  }],
+
+  "140":[{
+    "giorno":"19/5/2020",
+    "numArresti":582
+  }],
+
+  "141":[{
+    "giorno":"20/5/2020",
+    "numArresti":543
+  }],
+
+  "142":[{
+    "giorno":"21/5/2020",
+    "numArresti":545
+  }],
+
+  "143":[{
+    "giorno":"22/5/2020",
+    "numArresti":539
+  }],
+
+  "144":[{
+    "giorno":"23/5/2020",
+    "numArresti":367
+  }],
+
+  "145":[{
+    "giorno":"24/5/2020",
+    "numArresti":310
+  }],
+
+  "146":[{
+    "giorno":"25/5/2020",
+    "numArresti":364
+  }],
+
+  "147":[{
+    "giorno":"26/5/2020",
+    "numArresti":549
+  }],
+
+  "148":[{
+    "giorno":"27/5/2020",
+    "numArresti":625
+  }],
+
+  "149":[{
+    "giorno":"28/5/2020",
+    "numArresti":575
+  }],
+
+  "150":[{
+    "giorno":"29/5/2020",
+    "numArresti":472
+  }],
+
+  "151":[{
+    "giorno":"30/5/2020",
+    "numArresti":365
+  }],
+
+  "152":[{
+    "giorno":"31/5/2020",
+    "numArresti":306
+  }],
+
+  "153":[{
+    "giorno":"1/6/2020",
+    "numArresti":783
+  }],
+
+  "154":[{
+    "giorno":"2/6/2020",
+    "numArresti":595
+  }],
+
+  "155":[{
+    "giorno":"3/6/2020",
+    "numArresti":264
+  }],
+
+  "156":[{
+    "giorno":"4/6/2020",
+    "numArresti":345
+  }],
+
+  "157":[{
+    "giorno":"5/6/2020",
+    "numArresti":198
+  }],
+
+  "158":[{
+    "giorno":"6/6/2020",
+    "numArresti":212
+  }],
+
+  "159":[{
+    "giorno":"7/6/2020",
+    "numArresti":254
+  }],
+
+  "160":[{
+    "giorno":"8/6/2020",
+    "numArresti":234
+  }],
+
+  "161":[{
+    "giorno":"9/6/2020",
+    "numArresti":249
+  }],
+
+  "162":[{
+    "giorno":"10/6/2020",
+    "numArresti":231
+  }],
+
+  "163":[{
+    "giorno":"11/6/2020",
+    "numArresti":275
+  }],
+
+  "164":[{
+    "giorno":"12/6/2020",
+    "numArresti":220
+  }],
+
+  "165":[{
+    "giorno":"13/6/2020",
+    "numArresti":228
+  }],
+
+  "166":[{
+    "giorno":"14/6/2020",
+    "numArresti":221
+  }],
+
+  "167":[{
+    "giorno":"15/6/2020",
+    "numArresti":243
+  }],
+
+  "168":[{
+    "giorno":"16/6/2020",
+    "numArresti":279
+  }],
+
+  "169":[{
+    "giorno":"17/6/2020",
+    "numArresti":267
+  }],
+
+  "170":[{
+    "giorno":"18/6/2020",
+    "numArresti":266
+  }],
+
+  "171":[{
+    "giorno":"19/6/2020",
+    "numArresti":206
+  }],
+
+  "172":[{
+    "giorno":"20/6/2020",
+    "numArresti":163
+  }],
+
+  "173":[{
+    "giorno":"21/6/2020",
+    "numArresti":151
+  }],
+
+  "174":[{
+    "giorno":"22/6/2020",
+    "numArresti":238
+  }],
+
+  "175":[{
+    "giorno":"23/6/2020",
+    "numArresti":262
+  }],
+
+  "176":[{
+    "giorno":"24/6/2020",
+    "numArresti":324
+  }],
+
+  "177":[{
+    "giorno":"25/6/2020",
+    "numArresti":295
+  }],
+
+  "178":[{
+    "giorno":"26/6/2020",
+    "numArresti":212
+  }],
+
+  "179":[{
+    "giorno":"27/6/2020",
+    "numArresti":175
+  }],
+
+  "180":[{
+    "giorno":"28/6/2020",
+    "numArresti":188
+  }],
+
+  "181":[{
+    "giorno":"29/6/2020",
+    "numArresti":228
+  }],
+
+  "182":[{
+    "giorno":"30/6/2020",
+    "numArresti":277
+  }],
+
+  "183":[{
+    "giorno":"1/7/2020",
+    "numArresti":298
+  }],
+
+  "184":[{
+    "giorno":"2/7/2020",
+    "numArresti":235
+  }],
+
+  "185":[{
+    "giorno":"3/7/2020",
+    "numArresti":204
+  }],
+
+  "186":[{
+    "giorno":"4/7/2020",
+    "numArresti":158
+  }],
+
+  "187":[{
+    "giorno":"5/7/2020",
+    "numArresti":187
+  }],
+
+  "188":[{
+    "giorno":"6/7/2020",
+    "numArresti":185
+  }],
+
+  "189":[{
+    "giorno":"7/7/2020",
+    "numArresti":237
+  }],
+
+  "190":[{
+    "giorno":"8/7/2020",
+    "numArresti":261
+  }],
+
+  "191":[{
+    "giorno":"9/7/2020",
+    "numArresti":254
+  }],
+
+  "192":[{
+    "giorno":"10/7/2020",
+    "numArresti":200
+  }],
+
+  "193":[{
+    "giorno":"11/7/2020",
+    "numArresti":160
+  }],
+
+  "194":[{
+    "giorno":"12/7/2020",
+    "numArresti":185
+  }],
+
+  "195":[{
+    "giorno":"13/7/2020",
+    "numArresti":195
+  }],
+
+  "196":[{
+    "giorno":"14/7/2020",
+    "numArresti":333
+  }],
+
+  "197":[{
+    "giorno":"15/7/2020",
+    "numArresti":288
+  }],
+
+  "198":[{
+    "giorno":"16/7/2020",
+    "numArresti":259
+  }],
+
+  "199":[{
+    "giorno":"17/7/2020",
+    "numArresti":249
+  }],
+
+  "200":[{
+    "giorno":"18/7/2020",
+    "numArresti":167
+  }],
+
+  "201":[{
+    "giorno":"19/7/2020",
+    "numArresti":163
+  }],
+
+  "202":[{
+    "giorno":"20/7/2020",
+    "numArresti":229
+  }],
+
+  "203":[{
+    "giorno":"21/7/2020",
+    "numArresti":323
+  }],
+
+  "204":[{
+    "giorno":"22/7/2020",
+    "numArresti":350
+  }],
+
+  "205":[{
+    "giorno":"23/7/2020",
+    "numArresti":310
+  }],
+
+  "206":[{
+    "giorno":"24/7/2020",
+    "numArresti":285
+  }],
+
+  "207":[{
+    "giorno":"25/7/2020",
+    "numArresti":181
+  }],
+
+  "208":[{
+    "giorno":"26/7/2020",
+    "numArresti":181
+  }],
+
+  "209":[{
+    "giorno":"27/7/2020",
+    "numArresti":218
+  }],
+
+  "210":[{
+    "giorno":"28/7/2020",
+    "numArresti":376
+  }],
+
+  "211":[{
+    "giorno":"29/7/2020",
+    "numArresti":321
+  }],
+
+  "212":[{
+    "giorno":"30/7/2020",
+    "numArresti":260
+  }],
+
+  "213":[{
+    "giorno":"31/7/2020",
+    "numArresti":209
+  }],
+
+  "214":[{
+    "giorno":"1/8/2020",
+    "numArresti":254
+  }],
+
+  "215":[{
+    "giorno":"2/8/2020",
+    "numArresti":235
+  }],
+
+  "216":[{
+    "giorno":"3/8/2020",
+    "numArresti":289
+  }],
+
+  "217":[{
+    "giorno":"4/8/2020",
+    "numArresti":284
+  }],
+
+  "218":[{
+    "giorno":"5/8/2020",
+    "numArresti":423
+  }],
+
+  "219":[{
+    "giorno":"6/8/2020",
+    "numArresti":393
+  }],
+
+  "220":[{
+    "giorno":"7/8/2020",
+    "numArresti":347
+  }],
+
+  "221":[{
+    "giorno":"8/8/2020",
+    "numArresti":246
+  }],
+
+  "222":[{
+    "giorno":"9/8/2020",
+    "numArresti":211
+  }],
+
+  "223":[{
+    "giorno":"10/8/2020",
+    "numArresti":304
+  }],
+
+  "224":[{
+    "giorno":"11/8/2020",
+    "numArresti":384
+  }],
+
+  "225":[{
+    "giorno":"12/8/2020",
+    "numArresti":423
+  }],
+
+  "226":[{
+    "giorno":"13/8/2020",
+    "numArresti":413
+  }],
+
+  "227":[{
+    "giorno":"14/8/2020",
+    "numArresti":332
+  }],
+
+  "228":[{
+    "giorno":"15/8/2020",
+    "numArresti":238
+  }],
+
+  "229":[{
+    "giorno":"16/8/2020",
+    "numArresti":206
+  }],
+
+  "230":[{
+    "giorno":"17/8/2020",
+    "numArresti":305
+  }],
+
+  "231":[{
+    "giorno":"18/8/2020",
+    "numArresti":413
+  }],
+
+  "232":[{
+    "giorno":"19/8/2020",
+    "numArresti":431
+  }],
+
+  "233":[{
+    "giorno":"20/8/2020",
+    "numArresti":371
+  }],
+
+  "234":[{
+    "giorno":"21/8/2020",
+    "numArresti":362
+  }],
+
+  "235":[{
+    "giorno":"22/8/2020",
+    "numArresti":257
+  }],
+
+  "236":[{
+    "giorno":"23/8/2020",
+    "numArresti":221
+  }],
+
+  "237":[{
+    "giorno":"24/8/2020",
+    "numArresti":279
+  }],
+
+  "238":[{
+    "giorno":"25/8/2020",
+    "numArresti":353
+  }],
+
+  "239":[{
+    "giorno":"26/8/2020",
+    "numArresti":425
+  }],
+
+  "240":[{
+    "giorno":"27/8/2020",
+    "numArresti":350
+  }],
+
+  "241":[{
+    "giorno":"28/8/2020",
+    "numArresti":296
+  }],
+
+  "242":[{
+    "giorno":"29/8/2020",
+    "numArresti":271
+  }],
+
+  "243":[{
+    "giorno":"30/8/2020",
+    "numArresti":237
+  }],
+
+  "244":[{
+    "giorno":"31/8/2020",
+    "numArresti":275
+  }],
+
+  "245":[{
+    "giorno":"1/9/2020",
+    "numArresti":470
+  }],
+
+  "246":[{
+    "giorno":"2/9/2020",
+    "numArresti":498
+  }],
+
+  "247":[{
+    "giorno":"3/9/2020",
+    "numArresti":471
+  }],
+
+  "248":[{
+    "giorno":"4/9/2020",
+    "numArresti":370
+  }],
+
+  "249":[{
+    "giorno":"5/9/2020",
+    "numArresti":355
+  }],
+
+  "250":[{
+    "giorno":"6/9/2020",
+    "numArresti":284
+  }],
+
+  "251":[{
+    "giorno":"7/9/2020",
+    "numArresti":287
+  }],
+
+  "252":[{
+    "giorno":"8/9/2020",
+    "numArresti":433
+  }],
+
+  "253":[{
+    "giorno":"9/9/2020",
+    "numArresti":465
+  }],
+
+  "254":[{
+    "giorno":"10/9/2020",
+    "numArresti":428
+  }],
+
+  "255":[{
+    "giorno":"11/9/2020",
+    "numArresti":378
+  }],
+
+  "256":[{
+    "giorno":"12/9/2020",
+    "numArresti":329
+  }],
+
+  "257":[{
+    "giorno":"13/9/2020",
+    "numArresti":287
+  }],
+
+  "258":[{
+    "giorno":"14/9/2020",
+    "numArresti":334
+  }],
+
+  "259":[{
+    "giorno":"15/9/2020",
+    "numArresti":437
+  }],
+
+  "260":[{
+    "giorno":"16/9/2020",
+    "numArresti":448
+  }],
+
+  "261":[{
+    "giorno":"17/9/2020",
+    "numArresti":470
+  }],
+
+  "262":[{
+    "giorno":"18/9/2020",
+    "numArresti":360
+  }],
+
+  "263":[{
+    "giorno":"19/9/2020",
+    "numArresti":278
+  }],
+
+  "264":[{
+    "giorno":"20/9/2020",
+    "numArresti":240
+  }],
+
+  "265":[{
+    "giorno":"21/9/2020",
+    "numArresti":321
+  }],
+
+  "266":[{
+    "giorno":"22/9/2020",
+    "numArresti":375
+  }],
+
+  "267":[{
+    "giorno":"23/9/2020",
+    "numArresti":455
+  }],
+
+  "268":[{
+    "giorno":"24/9/2020",
+    "numArresti":415
+  }],
+
+  "269":[{
+    "giorno":"25/9/2020",
+    "numArresti":329
+  }],
+
+  "270":[{
+    "giorno":"26/9/2020",
+    "numArresti":398
+  }],
+
+  "271":[{
+    "giorno":"27/9/2020",
+    "numArresti":306
+  }],
+
+  "272":[{
+    "giorno":"28/9/2020",
+    "numArresti":312
+  }],
+
+  "273":[{
+    "giorno":"29/9/2020",
+    "numArresti":347
+  }],
+
+  "274":[{
+    "giorno":"30/9/2020",
+    "numArresti":424
+  }]
+}
