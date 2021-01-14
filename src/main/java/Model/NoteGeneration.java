@@ -8,6 +8,8 @@ import jm.music.data.Phrase;
 import jm.music.data.Score;
 import jm.util.Play;
 
+import static jm.constants.ProgramChanges.PIANO;
+
 public class NoteGeneration {
 
     //Questa classe contiene i metodi per l'elaborazione del dataset in pitch e ottava corrispondenti, contiene inoltre il metodo generateSound() che genera la melodia da riprodurre
@@ -106,13 +108,13 @@ public class NoteGeneration {
     }
 
 
-    public Score generateSound(int rhytm, int dynamic, int duration, int pan, int instrument)  {
+    public Score generateSound(int rhytm, int dynamic, int duration, int pan)  {
 
         NoteGeneration noteGen = new NoteGeneration();
         String[] notes =  noteGen.getNotes();
 
         Score score = new Score();
-        Part part = new Part("Sonification",instrument);
+        Part part = new Part("Sonification", PIANO);
         Phrase phrase = new Phrase();
 
 
@@ -120,11 +122,11 @@ public class NoteGeneration {
         for(int i = 0; i < noteArray.length; i++) {
 
             noteArray[i] = new Note(notes[i]);
-            noteArray[i].setRhythmValue(rhytm);
-            noteArray[i].setDynamic(dynamic);
-            noteArray[i].setDuration(duration);
+            noteArray[i].setRhythmValue(rhytm + 5);     //temp numbers
+            noteArray[i].setDynamic(dynamic + 100);
+            noteArray[i].setDuration(duration + 0.2);
             noteArray[i].setPan(pan);
-            noteArray[i].setFrequency(440.00);
+            noteArray[i].setFrequency(440.00);      //ottava da sistemare
             System.out.println(noteArray[i]);
 
         }
