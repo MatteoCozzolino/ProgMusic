@@ -25,7 +25,7 @@ public class DataBuilder {
         try {
 
             int i = 1;
-            while(i <=274){
+            while(i <=366){
 
                 id = String.valueOf(i);
                 FileReader reader = new FileReader(file.getAbsolutePath());

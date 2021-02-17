@@ -1,6 +1,6 @@
 package View;
 
-import Model.NoteGeneration;
+import Controller.NoteGeneration;
 
 import javax.swing.*;
 import java.awt.*;
@@ -25,8 +25,8 @@ public class CustomizeSound extends JFrame {
         startSonorization = new JButton("Start");
         durationChoice = new JComboBox<String>(new String[]{"things"});
         rhytmChoice = new JComboBox<String>(new String[]{"things"});
-        dynamicChoice = new JComboBox<String>(new String[]{"things"});
-        panChoice = new JComboBox<String>(new String[]{"things"});
+        dynamicChoice = new JComboBox<String>(new String[]{"Pianissimo", "Mezzo Piano", "Mezzo Forte", "Forte", "Fortissimo"});
+        panChoice = new JComboBox<String>(new String[]{"Sinistra", "Centrale", "Destra"});
 
         setLayout(new FlowLayout());
 
@@ -56,7 +56,7 @@ public class CustomizeSound extends JFrame {
         startSonorization.addActionListener(actionEvent -> {
             setVisible(false);
             new NoteGeneration();
-            melody.generateSound(rhytmChoice.getSelectedIndex(), dynamicChoice.getSelectedIndex(), durationChoice.getSelectedIndex(), panChoice.getSelectedIndex());
+            melody.generateSound(rhytmChoice.getSelectedIndex(), dynamicChoice.getSelectedIndex(), durationChoice.getSelectedIndex(), panChoice.getSelectedIndex()/2.0);
         });
 
 
