@@ -1,10 +1,10 @@
 package Model;
 
-import java.util.ArrayList;
-
 public class Data {
 
-    // Questa classe contiene i dati fondamentali estratti dal dataset in esame
+    /**
+     * This class contains the fundamental variables and methods extracted from the dataset.
+     */
 
     public String day;
     public int arrestNumber;

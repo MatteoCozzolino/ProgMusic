@@ -1,17 +1,23 @@
 package View;
 
 import Controller.NoteGeneration;
+import jm.music.data.Score;
 
 import javax.swing.*;
 import java.awt.*;
 
 public class CustomizeSound extends JFrame {
 
-    private NoteGeneration melody = new NoteGeneration();
+    /**
+     * This class is the main graphical interface of the program, it contains the fields to customize the melody and through the activation of the startSonorozation button
+     * calls the melodyGeneration(...) method which returns the score to be played.
+     */
+
+    private final NoteGeneration melodyGeneration = new NoteGeneration();
+    public Score score;
 
     private JButton startSonorization;
-    private JComboBox<String> durationChoice;
-    private JComboBox<String> rhytmChoice;
+    private JComboBox<String> rhythmChoice;
     private JComboBox<String> dynamicChoice;
     private JComboBox<String> panChoice;
 
@@ -23,10 +29,9 @@ public class CustomizeSound extends JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
         startSonorization = new JButton("Start");
-        durationChoice = new JComboBox<String>(new String[]{"things"});
-        rhytmChoice = new JComboBox<String>(new String[]{"things"});
+        rhythmChoice = new JComboBox<String>(new String[]{"Random", "un quarto",  "un ottavo", "un sedicesimo", "un trentaduesimo" });
         dynamicChoice = new JComboBox<String>(new String[]{"Pianissimo", "Mezzo Piano", "Mezzo Forte", "Forte", "Fortissimo"});
-        panChoice = new JComboBox<String>(new String[]{"Sinistra", "Centrale", "Destra"});
+        panChoice = new JComboBox<String>(new String[]{"Sinistra", "Centrale", "Destra", "Alternato"});
 
         setLayout(new FlowLayout());
 
@@ -35,15 +40,10 @@ public class CustomizeSound extends JFrame {
         dynamicSelection.add(new JLabel("Volume: "));
         dynamicSelection.add(dynamicChoice);
 
-        JPanel durationSelection = new JPanel(new FlowLayout(FlowLayout.LEFT));
-        add(durationSelection);
-        durationSelection.add(new JLabel("Durata: "));
-        durationSelection.add(durationChoice);
-
-        JPanel rhytmSelection = new JPanel(new FlowLayout(FlowLayout.LEFT));
-        add(rhytmSelection);
-        rhytmSelection.add(new JLabel("Ritmo: "));
-        rhytmSelection.add(rhytmChoice);
+        JPanel rhythmSelection = new JPanel(new FlowLayout(FlowLayout.LEFT));
+        add(rhythmSelection);
+        rhythmSelection.add(new JLabel("Ritmo, note da: "));
+        rhythmSelection.add(rhythmChoice);
 
         JPanel panSelection = new JPanel(new FlowLayout(FlowLayout.LEFT));
         add(panSelection);
@@ -54,13 +54,25 @@ public class CustomizeSound extends JFrame {
         add(startPanel);
         startPanel.add(startSonorization, BorderLayout.PAGE_END);
         startSonorization.addActionListener(actionEvent -> {
+
             setVisible(false);
-            new NoteGeneration();
-            melody.generateSound(rhytmChoice.getSelectedIndex(), dynamicChoice.getSelectedIndex(), durationChoice.getSelectedIndex(), panChoice.getSelectedIndex()/2.0);
+            score = melodyGeneration.generateScore(rhythmChoice.getSelectedIndex(), dynamicChoice.getSelectedIndex(), panChoice.getSelectedIndex());
+            launchPlayWindow(score);
+
         });
 
-
         this.setVisible(true);
+
+    }
+
+    /**
+     * The launchPlayWindow(score) method opens a new window where the score will be reproduced.
+     *
+     */
+
+    public void launchPlayWindow(Score score){
+
+        new PlayWindow(score);
 
     }
 

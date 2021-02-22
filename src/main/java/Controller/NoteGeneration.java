@@ -4,21 +4,30 @@ import java.util.ArrayList;
 
 import Model.Data;
 import Model.DataBuilder;
-import jm.constants.Pitches;
 import jm.music.data.Note;
 import jm.music.data.Part;
 import jm.music.data.Phrase;
 import jm.music.data.Score;
-import jm.util.Play;
 
+import static java.lang.Math.random;
+import static jm.constants.Durations.*;
 import static jm.constants.ProgramChanges.PIANO;
 import static jm.constants.Volumes.*;
 
-public class NoteGeneration implements Pitches{
+public class NoteGeneration{
 
-    //Questa classe contiene i metodi per l'elaborazione del dataset in pitch e ottava corrispondenti, contiene inoltre il metodo generateSound() che genera la melodia da riprodurre
+    /**
+     * This class contains the methods to elaborate the dataset and produce the score.
+     */
+
 
     private final ArrayList<Data> dataset = new DataBuilder().builder();
+    public boolean panFlag = true;
+
+    /**
+     * The methods .getPitchesList, .getOctaveList and .getNotes elaborate the numbers of the dataset and create and array, though the method .getNotes containing the pitches
+     * of the notes
+     */
 
     private ArrayList<Integer> getPitchesList () {
 
@@ -40,6 +49,24 @@ public class NoteGeneration implements Pitches{
         }
 
         return octaves;
+    }
+
+    public Integer[] getNotes(){
+
+        ArrayList<Integer> pitches = getPitchesList();
+        ArrayList<Integer> octaves = getOctaveList();
+
+        Integer[] notes = new Integer[dataset.size()];
+
+        for (int i = 0; i < pitches.size(); i++) {
+
+            int  notepitch = pitches.get(i);
+            int  octave = octaves.get(i);
+            notes[i] = (octave*12) + notepitch;
+
+        }
+
+        return notes;
     }
 
     private int getDynamic(int pickedDynamic){
@@ -71,25 +98,59 @@ public class NoteGeneration implements Pitches{
 
     }
 
-    public Integer[] getNotes(){
+    private double getRhythm (int pickedRhythm){
 
-        ArrayList<Integer> pitches = getPitchesList();
-        ArrayList<Integer> octaves = getOctaveList();
+        double rhythm;
 
-        Integer[] notes = new Integer[dataset.size()];
+        switch(pickedRhythm) {
 
-        for (int i = 0; i < pitches.size(); i++) {
-
-            int  notepitch = pitches.get(i);
-            int  octave = octaves.get(i);
-            notes[i] = (octave*12) + notepitch;
+            case 0:
+                rhythm = random();
+                break;
+            case 1:
+                rhythm = CROTCHET;
+                break;
+            case 2:
+                rhythm = QUAVER;
+                break;
+            case 3:
+                rhythm = SEMI_QUAVER;
+                break;
+            case 4:
+                rhythm = DEMI_SEMI_QUAVER;
+                break;
+            default:
+                throw new IllegalStateException("Unexpected value: " + pickedRhythm);
         }
 
-        return notes;
+        return rhythm;
     }
 
+    private double getPan (int pickedPan){
 
-    public Score generateSound(int rhytm, int dynamic, int duration, double pan)  {
+        double pan;
+
+        if(pickedPan == 3){
+            if(panFlag) {
+                pan = 0;
+                panFlag = false;
+            }else{
+                pan = 1.0;
+                panFlag = true;
+            }
+        }
+        else
+            pan = pickedPan / 2.0;
+
+        return pan;
+    }
+
+    /**
+     * The following method generates the score by creating the noteArray[] array which will contain all the notes with pitches generated through the .getNotes method and with
+     * the rhythm, dynamic and pan picked by the user during the customization phase and elaborated in the .getDynamic, .getRhythm and .getPan methods of the class.
+     */
+
+    public Score generateScore(int rhythm, int dynamic, int pan)  {
 
         Integer[] notes =  this.getNotes();
 
@@ -97,24 +158,16 @@ public class NoteGeneration implements Pitches{
         Part part = new Part("Sonification", PIANO);
         Phrase phrase = new Phrase();
 
-
         Note[] noteArray =  new Note[dataset.size()];
         for(int i = 0; i < noteArray.length; i++) {
 
-            noteArray[i] = new Note(notes[i], rhytm + 0.5, getDynamic(dynamic), pan);
-
-            noteArray[i].setDuration(duration + 0.4);
-
-            System.out.println(noteArray[i]);       //temp
+            noteArray[i] = new Note(notes[i], getRhythm(rhythm), getDynamic(dynamic), getPan(pan));
 
         }
 
         phrase.addNoteList(noteArray);
-
         part.addPhrase(phrase);
         score.addPart(part);
-
-        Play.midi(score);
 
         return score;
 

@@ -12,8 +12,10 @@ import java.util.logging.Logger;
 
 public class DataBuilder {
 
-    //Questa classe contiene i metodi per la lettura del dataset in esame e, attraverso il metodo .builder() restituisce una struttura dati
-    //pronta per essere elaborata
+    /**
+     * This class contains the method builder() to read the dataset and returns a data structure ready to be analyzed
+     *
+     */
 
     public ArrayList<Data> builder() {
 
