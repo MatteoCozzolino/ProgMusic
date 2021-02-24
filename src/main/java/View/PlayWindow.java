@@ -14,6 +14,7 @@ public class PlayWindow extends JFrame{
      */
 
     private JButton playButton;
+    private JLabel background;
 
     public PlayWindow(Score score) {
 
@@ -23,6 +24,8 @@ public class PlayWindow extends JFrame{
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
         playButton = new JButton("Play");
+        background = new JLabel(new ImageIcon(this.getClass().getResource("/planksBackground.jpg").getPath()));
+        setContentPane(background);
 
         setLayout(new FlowLayout());
 
